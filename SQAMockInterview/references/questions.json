@@ -1,0 +1,211 @@
+{
+  "questions": [
+    {
+      "id": "ta-beginner-1",
+      "topic": "test automation",
+      "difficulty": "beginner",
+      "company_level": ["startup", "scale-up"],
+      "scenario": "Your team is building an e-commerce website and needs to test the checkout flow (add item to cart, enter shipping info, payment, confirm order). You're tasked with writing automated tests for this. What testing approach would you take, and what tools would you use?",
+      "evaluation_criteria": ["Tool selection (Selenium, Cypress, Playwright)", "Test design (happy path vs edge cases)", "Acknowledgment of element identification challenges", "Mention of test data/test environment", "Page Object Model or similar pattern"],
+      "company_context": "Startup/Scale-up: Values rapid iteration and pragmatic solutions"
+    },
+    {
+      "id": "ta-beginner-2",
+      "topic": "test automation",
+      "difficulty": "beginner",
+      "company_level": ["startup", "scale-up", "enterprise"],
+      "scenario": "You notice a flaky test in your suite — it passes 80% of the time but fails intermittently without any code changes. What could cause this, and how would you debug it?",
+      "evaluation_criteria": ["Common causes (timing, async operations, environment dependencies)", "Debugging strategy (logs, screenshots, re-runs)", "Tools (WebDriverWait, explicit waits)", "Root cause examples", "Prevention tactics"],
+      "company_context": "Critical for all company sizes"
+    },
+    {
+      "id": "ta-intermediate-1",
+      "topic": "test automation",
+      "difficulty": "intermediate",
+      "company_level": ["enterprise", "FAANG"],
+      "scenario": "Your test suite has grown to 500+ tests that take 45 minutes to run. The team is frustrated because CI/CD feedback is slow. How would you optimize the test execution time while maintaining coverage?",
+      "evaluation_criteria": ["Test categorization (unit/integration/e2e)", "Parallel execution", "Test selection strategies", "Environment optimization", "Trade-offs between coverage and speed", "Metrics for decision-making"],
+      "company_context": "Enterprise/FAANG: Values scalability and systematic optimization"
+    },
+    {
+      "id": "ta-intermediate-2",
+      "topic": "test automation",
+      "difficulty": "intermediate",
+      "company_level": ["startup", "scale-up", "enterprise"],
+      "scenario": "You're tasked with creating a test automation framework from scratch for a new product team. What would your framework architecture look like? What are your key design decisions?",
+      "evaluation_criteria": ["Layered architecture (UI, API, data layers)", "Design patterns (POM, etc.)", "Testability concerns", "Maintainability", "Scalability", "Team onboarding"],
+      "company_context": "Foundational skill for all levels"
+    },
+    {
+      "id": "ta-advanced-1",
+      "topic": "test automation",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "Your company has a microservices architecture with 15+ services. Testing the end-to-end user workflows requires coordinating multiple services, each with different databases and APIs. How would you approach automated testing in this environment? What are the key challenges?",
+      "evaluation_criteria": ["Microservices testing strategy", "Contract testing vs e2e", "Test data isolation", "Mocking/stubbing strategies", "Observability in tests", "Trade-offs and limitations"],
+      "company_context": "FAANG: Complex architectural challenges"
+    },
+    {
+      "id": "cicd-beginner-1",
+      "topic": "CI/CD",
+      "difficulty": "beginner",
+      "company_level": ["startup"],
+      "scenario": "Your startup currently runs tests manually before each deploy. You want to automate this process using a CI/CD pipeline (you can choose Jenkins, GitHub Actions, GitLab CI, etc.). Walk me through your pipeline design. What stages would you include?",
+      "evaluation_criteria": ["Pipeline stages (build, test, deploy)", "Tool selection and justification", "Trigger points (on commit, schedules)", "Artifact management", "Feedback mechanisms", "Basic understanding of automation benefits"],
+      "company_context": "Startup: Pragmatic, cost-effective solutions"
+    },
+    {
+      "id": "cicd-intermediate-1",
+      "topic": "CI/CD",
+      "difficulty": "intermediate",
+      "company_level": ["scale-up", "enterprise"],
+      "scenario": "Your CI/CD pipeline is failing 30% of the time due to environment inconsistencies. Tests pass locally but fail in CI. What strategies would you use to achieve environment parity?",
+      "evaluation_criteria": ["Containerization (Docker)", "Infrastructure as Code", "Dependency management", "Environment variables and secrets", "Debugging CI-specific issues", "Reproducibility"],
+      "company_context": "Scale-up/Enterprise: Reliability is critical"
+    },
+    {
+      "id": "cicd-advanced-1",
+      "topic": "CI/CD",
+      "difficulty": "advanced",
+      "company_level": ["enterprise", "FAANG"],
+      "scenario": "You're designing a CI/CD system for a high-throughput service that deploys 10+ times per day. The team needs fast feedback, but you also need to ensure quality. How do you balance speed and reliability? What metrics would you track?",
+      "evaluation_criteria": ["Deployment frequency vs stability", "Feature flags and rollback strategies", "Progressive rollouts (canary, blue-green)", "Monitoring and observability", "Test selection and prioritization", "Metrics (lead time, deployment frequency, MTTR)"],
+      "company_context": "Enterprise/FAANG: High-scale, high-frequency deployments"
+    },
+    {
+      "id": "api-beginner-1",
+      "topic": "API testing",
+      "difficulty": "beginner",
+      "company_level": ["startup", "scale-up"],
+      "scenario": "You're testing a REST API for a social media app. The API has endpoints for user registration, posting updates, and liking posts. How would you approach testing these APIs? What would you test?",
+      "evaluation_criteria": ["HTTP methods and status codes", "Request/response validation", "Authentication/authorization", "Error handling", "Tools (Postman, REST Assured)", "Happy path vs error scenarios"],
+      "company_context": "Startup/Scale-up: Practical testing approach"
+    },
+    {
+      "id": "api-intermediate-1",
+      "topic": "API testing",
+      "difficulty": "intermediate",
+      "company_level": ["scale-up", "enterprise"],
+      "scenario": "You have 50+ API endpoints across your system. Manual testing is too slow. How would you structure automated API tests for scalability and maintainability? What challenges would you anticipate?",
+      "evaluation_criteria": ["Test organization and frameworks", "Data-driven testing", "Mocking and stubbing external APIs", "Performance baselines", "API versioning and backward compatibility", "Contract testing"],
+      "company_context": "Scale-up/Enterprise: Large-scale API testing"
+    },
+    {
+      "id": "api-advanced-1",
+      "topic": "API testing",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "You're testing APIs in a distributed system where eventual consistency is the norm. A create user request returns success, but the user might not be searchable for 2+ seconds due to replication lag. How do you test this reliably? What patterns would you use?",
+      "evaluation_criteria": ["Eventual consistency challenges", "Polling and retry strategies", "State verification across services", "Test isolation and idempotency", "Chaos testing", "Real-world distributed system patterns"],
+      "company_context": "FAANG: Distributed systems challenges"
+    },
+    {
+      "id": "qa-strategy-beginner-1",
+      "topic": "QA strategy",
+      "difficulty": "beginner",
+      "company_level": ["startup"],
+      "scenario": "Your startup has limited time and resources. A feature release is coming in 2 weeks. How would you decide what to test and what not to test? What factors would you consider?",
+      "evaluation_criteria": ["Risk assessment", "Business impact prioritization", "Resource constraints", "Customer impact", "Regression testing", "Basic coverage decisions"],
+      "company_context": "Startup: Pragmatic risk management"
+    },
+    {
+      "id": "qa-strategy-intermediate-1",
+      "topic": "QA strategy",
+      "difficulty": "intermediate",
+      "company_level": ["scale-up", "enterprise"],
+      "scenario": "Your company wants to 'shift left' — move testing earlier in the development process. You're tasked with designing a strategy. What does this mean practically? How would you implement it?",
+      "evaluation_criteria": ["Developer testing, test automation, static analysis", "Test-driven development (TDD)", "Code review integration", "Continuous integration", "Early detection of bugs", "Team collaboration"],
+      "company_context": "Scale-up/Enterprise: Quality culture shift"
+    },
+    {
+      "id": "qa-strategy-advanced-1",
+      "topic": "QA strategy",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "You're hired to establish a quality strategy for a new product line that will have 20+ teams contributing code. The teams use different tech stacks and have varying quality standards. How do you create a unified quality framework that doesn't impede innovation?",
+      "evaluation_criteria": ["Scalable QA governance", "Tool standardization with flexibility", "Quality metrics and SLOs", "Centers of excellence", "Autonomy vs consistency trade-offs", "Leadership and influence"],
+      "company_context": "FAANG: Large-scale quality leadership"
+    },
+    {
+      "id": "testdata-beginner-1",
+      "topic": "test data management",
+      "difficulty": "beginner",
+      "company_level": ["startup"],
+      "scenario": "You need test data for your e-commerce app testing (users, products, orders). How would you create and manage this data? What are the challenges?",
+      "evaluation_criteria": ["Data generation approaches (fixtures, factories, API-driven)", "Test data scope", "Realistic data", "Data cleanup", "Seed data", "Simple strategies"],
+      "company_context": "Startup: Pragmatic data approaches"
+    },
+    {
+      "id": "testdata-intermediate-1",
+      "topic": "test data management",
+      "difficulty": "intermediate",
+      "company_level": ["enterprise"],
+      "scenario": "Your tests need realistic production-like data, but your company has strict data privacy regulations (GDPR, CCPA). You can't use real customer data. How do you create test data that's realistic but compliant?",
+      "evaluation_criteria": ["Data masking and anonymization", "Synthetic data generation", "Compliance requirements", "Data sanitization", "Realistic data patterns", "Security in test environments"],
+      "company_context": "Enterprise: Compliance and scale"
+    },
+    {
+      "id": "testdata-advanced-1",
+      "topic": "test data management",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "You have 200+ tests that each need unique, isolated test data. Running tests sequentially is too slow, so you want to parallelize. But test data setup is expensive (database operations). How do you optimize this?",
+      "evaluation_criteria": ["Parallel test execution strategy", "Data isolation techniques", "Performance optimization", "Database fixtures vs API-driven data", "Cleanup and state management", "Trade-offs (cost vs speed)"],
+      "company_context": "FAANG: High-scale, high-performance testing"
+    },
+    {
+      "id": "performance-beginner-1",
+      "topic": "performance testing",
+      "difficulty": "beginner",
+      "company_level": ["startup", "scale-up"],
+      "scenario": "Your API endpoint is slow. How would you identify what's making it slow, and what tools would you use to test performance?",
+      "evaluation_criteria": ["Load testing concepts", "Tools (JMeter, Locust, k6)", "Metrics (response time, throughput, P95)", "Baseline establishment", "Bottleneck identification", "Simple performance strategies"],
+      "company_context": "Startup/Scale-up: Practical performance insights"
+    },
+    {
+      "id": "performance-intermediate-1",
+      "topic": "performance testing",
+      "difficulty": "intermediate",
+      "company_level": ["enterprise"],
+      "scenario": "Your system needs to handle 10,000 concurrent users during a flash sale. How would you load-test this scenario? What would you measure? What would be acceptable thresholds?",
+      "evaluation_criteria": ["Load vs stress vs spike testing", "Realistic user simulation", "Metrics (latency percentiles, error rates)", "Bottleneck discovery (CPU, DB, network)", "Capacity planning", "Scalability testing"],
+      "company_context": "Enterprise: Business-critical performance"
+    },
+    {
+      "id": "security-beginner-1",
+      "topic": "security testing",
+      "difficulty": "beginner",
+      "company_level": ["startup"],
+      "scenario": "You're adding security testing to your QA process. What basic security vulnerabilities would you test for in a web application? How would you test them?",
+      "evaluation_criteria": ["OWASP top 10 awareness", "SQL injection, XSS, CSRF concepts", "Basic security testing", "Tools (OWASP ZAP, Burp Suite basics)", "Input validation testing", "Authentication/authorization basics"],
+      "company_context": "Startup: Foundational security awareness"
+    },
+    {
+      "id": "security-advanced-1",
+      "topic": "security testing",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "You're designing a security testing strategy for a fintech company handling sensitive payment data. Your system must comply with PCI-DSS. How would you integrate security testing into the CI/CD pipeline? What would be your scanning strategy?",
+      "evaluation_criteria": ["Compliance requirements (PCI-DSS)", "SAST/DAST/SCA tools", "Secret scanning", "Penetration testing", "Security in CI/CD", "Risk-based testing approach"],
+      "company_context": "FAANG/Enterprise: Compliance and security-critical systems"
+    },
+    {
+      "id": "leadership-intermediate-1",
+      "topic": "test leadership",
+      "difficulty": "intermediate",
+      "company_level": ["scale-up", "enterprise"],
+      "scenario": "You're a QA lead. Your team discovered a critical bug that should have been caught by tests. How do you handle this? What would you do to prevent similar issues?",
+      "evaluation_criteria": ["Root cause analysis", "Team communication and blame-free culture", "Process improvement", "Retrospective approach", "Automation strategy", "Team development"],
+      "company_context": "Scale-up/Enterprise: Team leadership"
+    },
+    {
+      "id": "leadership-advanced-1",
+      "topic": "test leadership",
+      "difficulty": "advanced",
+      "company_level": ["FAANG"],
+      "scenario": "You're hiring for a new QA lead role on your team. You have two candidates: one with 8 years of manual testing and domain expertise, another with 3 years of test automation and modern QA practices. Which would you hire and why? What would you look for?",
+      "evaluation_criteria": ["Leadership qualities", "Team building", "Technical depth vs breadth", "Coaching and mentoring", "Strategic thinking", "Organizational awareness"],
+      "company_context": "FAANG: Leadership and strategic hiring"
+    }
+  ]
+}

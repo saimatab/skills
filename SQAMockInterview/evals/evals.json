@@ -1,0 +1,35 @@
+{
+  "skill_name": "SQAMockInterview",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I want to practice for a FAANG company interview. Give me advanced-level questions on test automation. I'm preparing for a senior QA engineer role.",
+      "expected_output": "Skill confirms FAANG level, advanced difficulty, test automation topic. Presents 5-6 realistic scenario-based questions. User answers each question, receives real-time feedback with score (1-5), strengths, gaps, and best practice tips. After all questions, provides comprehensive summary with overall score, themes in strengths/weaknesses, and interview readiness assessment.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "/SQAMockInterview CI/CD intermediate startup",
+      "expected_output": "Skill confirms startup company level, intermediate difficulty, CI/CD topic. Presents 5-6 relevant scenario questions focused on CI/CD challenges at startup scale. User answers, receives immediate feedback. Interview concludes with summary tailored to startup context (pragmatic solutions, resource constraints).",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "I need to prepare for API testing interview questions. I'm at an intermediate level and the company is an enterprise. Give me a mix of questions.",
+      "expected_output": "Skill confirms enterprise company level, intermediate difficulty, API testing topic. Presents scenario-based questions on API testing at enterprise scale (scalability, versioning, distributed systems, etc.). Real-time feedback and final summary with scored performance.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "prompt": "Give me beginner QA strategy questions for a scale-up company. I'm just starting my QA career.",
+      "expected_output": "Skill confirms scale-up company level, beginner difficulty, QA strategy topic. Presents foundational scenario questions on QA strategy. Feedback emphasizes building fundamentals. Final summary encourages continued learning and practice.",
+      "files": []
+    },
+    {
+      "id": 5,
+      "prompt": "Random mix of questions, advanced level, any company size. I want to challenge myself across different domains.",
+      "expected_output": "Skill confirms advanced difficulty, mixed topics (test automation, CI/CD, API testing, QA strategy, performance testing, etc.), any company level. Presents diverse scenario questions spanning multiple domains. User gets comprehensive feedback across different SQAA domains. Final summary shows performance across domains.",
+      "files": []
+    }
+  ]
+}
